@@ -2,6 +2,565 @@
     {
         "Nome": "",
         "Descricao": "",
-        "Plataformas":""
+        "Plataformas": "",
+        "Genero": "",
+        "Preco": 0,
+        "img": "",
+        "Desenvolvedora": ""
+    },
+    {
+        "Nome": "Fortnite",
+        "Descricao": "Fortnite é um jogo eletrônico multijogador online revelado originalmente em 2011, desenvolvido pela Epic Games e lançado como diferentes modos de jogo que compartilham a mesma jogabilidade e engine gráfica de jogo. ",
+        "Plataformas": [
+            "PC",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Xbox One",
+            "Xbox Series X/S",
+            "Nintendo Switch",
+            "iOS",
+            "Android"
+        ],
+        "Genero": [
+            "Battle-Royale",
+            "Sobrevivência",
+            "Construção"
+        ],
+        "Preco": 0,
+        "img": "imagem_fortnite.jpg",
+        "Desenvolvedora": "Epic Games"
+    },
+    {
+        "Nome": "Minecraft",
+        "Descricao": "Minecraft é um jogo eletrônico de sandbox e sobrevivência desenvolvido e publicado pela Mojang Studios. O jogo foi criado por Markus Persson em 2009 e posteriormente adquirido pela Mojang Studios em 2014.",
+        "Plataformas": [
+            "PC",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Xbox One",
+            "Xbox Series X/S",
+            "Nintendo Switch",
+            "iOS",
+            "Android"
+        ],
+        "Genero": [
+            "Sandbox",
+            "Sobrevivência",
+            "Aventura"
+        ],
+        "Preco": 179.99,
+        "img": "imagem_minecraft.jpg",
+        "Desenvolvedora": "Mojang Studios"
+    },
+    {
+        "Nome": "League of Legends",
+        "Descricao": "League of Legends é um jogo eletrônico do gênero multiplayer online battle arena (MOBA) desenvolvido e publicado pela Riot Games. É um dos jogos mais populares e influentes do gênero.",
+        "Plataformas": [
+            "PC"
+        ],
+        "Genero": [
+            "MOBA"
+        ],
+        "Preco": 0,
+        "img": "imagem_league_of_legends.jpg",
+        "Desenvolvedora": "Riot Games"
+    },
+    {
+        "Nome": "Dota 2",
+        "Descricao": "Dota 2 é um jogo eletrônico do gênero multiplayer online battle arena (MOBA) desenvolvido e publicado pela Valve Corporation. É a continuação do mod Defense of the Ancients para o jogo Warcraft III: Reign of Chaos e sua expansão, The Frozen Throne.",
+        "Plataformas": [
+            "PC"
+        ],
+        "Genero": [
+            "MOBA"
+        ],
+        "Preco": 0,
+        "img": "imagem_dota_2.jpg",
+        "Desenvolvedora": "Valve Corporation"
+    },
+    {
+        "Nome": "Counter-Strike: Global Offensive",
+        "Descricao": "Counter-Strike: Global Offensive é um jogo eletrônico de tiro em primeira pessoa online desenvolvido pela Valve Corporation e Hidden Path Entertainment. É o quarto jogo da série Counter-Strike.",
+        "Plataformas": [
+            "PC",
+            "PlayStation 3",
+            "Xbox 360"
+        ],
+        "Genero": [
+            "Tiro em Primeira Pessoa"
+        ],
+        "Preco": 0,
+        "img": "imagem_csgo.jpg",
+        "Desenvolvedora": "Valve Corporation, Hidden Path Entertainment"
+    },
+    {
+        "Nome": "Among Us",
+        "Descricao": "Among Us é um jogo eletrônico multijogador online de festa desenvolvido e publicado pela Innersloth. O jogo foi lançado em 2018, mas ganhou grande popularidade em 2020.",
+        "Plataformas": [
+            "PC",
+            "iOS",
+            "Android"
+        ],
+        "Genero": [
+            "Social Deduction",
+            "Festa"
+        ],
+        "Preco": 0,
+        "img": "imagem_among_us.jpg",
+        "Desenvolvedora": "Innersloth"
+    },
+    {
+        "Nome": "Genshin Impact",
+        "Descricao": "Genshin Impact é um jogo eletrônico de ação e aventura de mundo aberto desenvolvido e publicado pela empresa chinesa miHoYo. O jogo apresenta um mundo de fantasia chamado Teyvat, que é habitado por sete elementos divinos.",
+        "Plataformas": [
+            "PC",
+            "PlayStation 4",
+            "PlayStation 5",
+            "iOS",
+            "Android"
+        ],
+        "Genero": [
+            "Ação",
+            "Aventura",
+            "RPG"
+        ],
+        "Preco": 0,
+        "img": "imagem_genshin_impact.jpg",
+        "Desenvolvedora": "miHoYo"
+    },
+    {
+        "Nome": "FIFA series",
+        "Descricao": "FIFA é uma série de jogos eletrônicos de futebol desenvolvidos e publicados pela Electronic Arts sob a marca EA Sports. A série tem sido lançada anualmente desde 1993.",
+        "Plataformas": [
+            "PC",
+            "PlayStation",
+            "Xbox",
+            "Nintendo Switch"
+        ],
+        "Genero": [
+            "Esportes",
+            "Simulação"
+        ],
+        "Preco": 0,
+        "img": "imagem_fifa.jpg",
+        "Desenvolvedora": "EA Sports"
+    },
+    {
+        "Nome": "NBA 2K series",
+        "Descricao": "NBA 2K é uma série de jogos eletrônicos de basquete desenvolvidos e publicados pela 2K Sports. Os jogos simulam a experiência da National Basketball Association (NBA).",
+        "Plataformas": [
+            "PC",
+            "PlayStation",
+            "Xbox",
+            "Nintendo Switch"
+        ],
+        "Genero": [
+            "Esportes",
+            "Simulação"
+        ],
+        "Preco": 0,
+        "img": "imagem_nba_2k.jpg",
+        "Desenvolvedora": "2K Sports"
+    },
+    {
+        "Nome": "Grand Theft Auto V",
+        "Descricao": "Grand Theft Auto V é um jogo eletrônico de ação-aventura desenvolvido pela Rockstar North e publicado pela Rockstar Games. É o sétimo título principal da série Grand Theft Auto e foi lançado originalmente em 2013.",
+        "Plataformas": [
+            "PC",
+            "PlayStation 3",
+            "PlayStation 4",
+            "Xbox 360",
+            "Xbox One"
+        ],
+        "Genero": [
+            "Ação",
+            "Aventura",
+            "Mundo Aberto"
+        ],
+        "Preco": 69.99,
+        "img": "imagem_gta_v.jpg",
+        "Desenvolvedora": "Rockstar North"
+    },
+    {
+        "Nome": "Red Dead Redemption 2",
+        "Descricao": "Red Dead Redemption 2 é um jogo eletrônico de ação-aventura desenvolvido e publicado pela Rockstar Games. É a sequência do jogo de 2010 Red Dead Redemption e foi lançado em outubro de 2018 para PlayStation 4 e Xbox One, e em novembro de 2019 para Microsoft Windows e Google Stadia.",
+        "Plataformas": [
+            "PC",
+            "PlayStation 4",
+            "Xbox One",
+            "Google Stadia"
+        ],
+        "Genero": [
+            "Ação",
+            "Aventura",
+            "Mundo Aberto"
+        ],
+        "Preco": 199.99,
+        "img": "imagem_red_dead_redemption_2.jpg",
+        "Desenvolvedora": "Rockstar Games"
+    },
+    {
+        "Nome": "Cyberpunk 2077",
+        "Descricao": "Cyberpunk 2077 é um jogo eletrônico de RPG de ação desenvolvido e publicado pela CD Projekt. O jogo se passa em Night City, uma megalópole obcecada por poder, glamour e biomodificações.",
+        "Plataformas": [
+            "PC",
+            "PlayStation 4",
+            "PlayStation 5",
+            "Xbox One",
+            "Xbox Series X/S",
+            "Google Stadia"
+        ],
+        "Genero": [
+            "RPG",
+            "Ação",
+            "Mundo Aberto"
+        ],
+        "Preco": 200.00,
+        "img": "imagem_cyberpunk_2077.jpg",
+        "Desenvolvedora": "CD Projekt"
+    },
+    {
+        "Nome": "Animal Crossing: New Horizons",
+        "Descricao": "Animal Crossing: New Horizons é um jogo eletrônico de simulação de vida desenvolvido e publicado pela Nintendo. É o quinto título principal da série Animal Crossing e foi lançado para o Nintendo Switch em março de 2020.",
+        "Plataformas": ["Nintendo Switch"],
+        "Genero": ["Simulação", "Vida Virtual"],
+        "Preco": 299.99,
+        "img": "imagem_animal_crossing.jpg",
+        "Desenvolvedora": "Nintendo"
+    },
+    {
+        "Nome": "Pokémon Sword and Shield",
+        "Descricao": "Pokémon Sword and Shield são jogos eletrônicos de RPG desenvolvidos pela Game Freak e publicados pela Nintendo e pela The Pokémon Company para o Nintendo Switch. São os primeiros jogos principais da série Pokémon a serem lançados para um console de mesa.",
+        "Plataformas": ["Nintendo Switch"],
+        "Genero": ["RPG", "Aventura"],
+        "Preco": 299.99,
+        "img": "imagem_pokemon_sword_shield.jpg",
+        "Desenvolvedora": "Game Freak"
+    },
+    {
+        "Nome": "Super Smash Bros. Ultimate",
+        "Descricao": "Super Smash Bros. Ultimate é um jogo eletrônico de luta crossover desenvolvido pela Bandai Namco Studios e Sora Ltd. e publicado pela Nintendo para o Nintendo Switch. É o quinto título da série Super Smash Bros.",
+        "Plataformas": ["Nintendo Switch"],
+        "Genero": ["Luta", "Crossover"],
+        "Preco": 299.99,
+        "img": "imagem_super_smash_bros_ultimate.jpg",
+        "Desenvolvedora": "Bandai Namco Studios, Sora Ltd."
+    },
+    {
+        "Nome": "Overwatch",
+        "Descricao": "Overwatch é um jogo eletrônico multijogador de tiro em primeira pessoa desenvolvido e publicado pela Blizzard Entertainment. Foi lançado em maio de 2016 para Microsoft Windows, PlayStation 4 e Xbox One.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
+        "Genero": ["Tiro em Primeira Pessoa", "Ação"],
+        "Preco": 79.90,
+        "img": "imagem_overwatch.jpg",
+        "Desenvolvedora": "Blizzard Entertainment"
+    },
+    
+    {
+        "Nome": "Rainbow Six Siege",
+        "Descricao": "Tom Clancy's Rainbow Six Siege é um jogo eletrônico do gênero tático de tiro em primeira pessoa desenvolvido pela Ubisoft Montreal e publicado pela Ubisoft. Foi lançado em dezembro de 2015.",
+        "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+        "Genero": ["Tiro em Primeira Pessoa", "Tático"],
+        "Preco": 59.99,
+        "img": "imagem_rainbow_six_siege.jpg",
+        "Desenvolvedora": "Ubisoft Montreal"
+    },
+    {
+        "Nome": "Rust",
+        "Descricao": "Rust é um jogo eletrônico de sobrevivência online desenvolvido e publicado pela Facepunch Studios. O jogo foi lançado em acesso antecipado em dezembro de 2013.",
+        "Plataformas": ["PC"],
+        "Genero": ["Sobrevivência", "Ação"],
+        "Preco": 36.99,
+        "img": "imagem_rust.jpg",
+        "Desenvolvedora": "Facepunch Studios"
+    },
+    {
+        "Nome": "Rocket League",
+        "Descricao": "Rocket League é um jogo eletrônico de futebol veicular desenvolvido e publicado pela Psyonix. Foi lançado em julho de 2015 para várias plataformas.",
+        "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
+        "Genero": ["Esportes", "Veicular"],
+        "Preco": 39.99,
+        "img": "imagem_rocket_league.jpg",
+        "Desenvolvedora": "Psyonix"
+    },
+    {
+        "Nome": "Tom Clancy's The Division 2",
+        "Descricao": "Tom Clancy's The Division 2 é um jogo eletrônico de RPG de tiro em terceira pessoa desenvolvido pela Massive Entertainment e publicado pela Ubisoft. É uma sequência direta de Tom Clancy's The Division.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
+        "Genero": ["Tiro em Terceira Pessoa", "RPG"],
+        "Preco": 179.99,
+        "img": "imagem_the_division_2.jpg",
+        "Desenvolvedora": "Massive Entertainment"
+    },
+    {
+        "Nome": "PUBG (PlayerUnknown's Battlegrounds)",
+        "Descricao": "PlayerUnknown's Battlegrounds é um jogo eletrônico multiplayer online do gênero battle royale desenvolvido e publicado pela PUBG Corporation. Foi lançado em março de 2017.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One", "Android", "iOS"],
+        "Genero": ["Battle Royale"],
+        "Preco": 55.99,
+        "img": "imagem_pubg.jpg",
+        "Desenvolvedora": "PUBG Corporation"
+    },
+    {
+        "Nome": "Destiny 2",
+        "Descricao": "Destiny 2 é um jogo eletrônico multiplayer online de tiro em primeira pessoa desenvolvido pela Bungie. É a sequência de Destiny, lançado em 2014.",
+        "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+        "Genero": ["Tiro em Primeira Pessoa", "RPG"],
+        "Preco": 79.90,
+        "img": "imagem_destiny_2.jpg",
+        "Desenvolvedora": "Bungie"
+    },
+    {
+        "Nome": "Warframe",
+        "Descricao": "Warframe é um jogo eletrônico gratuito de tiro em terceira pessoa e role-playing game online multiplayer desenvolvido e publicado pela Digital Extremes. Foi lançado em março de 2013.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+        "Genero": ["Tiro em Terceira Pessoa", "RPG"],
+        "Preco": 0,
+        "img": "imagem_warframe.jpg",
+        "Desenvolvedora": "Digital Extremes"
+    },
+    {
+        "Nome": "Hearthstone",
+        "Descricao": "Hearthstone é um jogo de cartas online gratuito desenvolvido e publicado pela Blizzard Entertainment. Foi lançado em março de 2014.",
+        "Plataformas": ["PC", "iOS", "Android"],
+        "Genero": ["Jogo de Cartas", "Estratégia"],
+        "Preco": 0,
+        "img": "imagem_hearthstone.jpg",
+        "Desenvolvedora": "Blizzard Entertainment"
+    },
+    {
+        "Nome": "Teamfight Tactics",
+        "Descricao": "Teamfight Tactics é um jogo eletrônico de estratégia autochess desenvolvido e publicado pela Riot Games. Foi lançado em junho de 2019 como um modo de jogo dentro do League of Legends.",
+        "Plataformas": ["PC", "iOS", "Android"],
+        "Genero": ["Estratégia", "Autochess"],
+        "Preco": 0,
+        "img": "imagem_teamfight_tactics.jpg",
+        "Desenvolvedora": "Riot Games"
+    },
+    {
+        "Nome": "Legends of Runeterra",
+        "Descricao": "Legends of Runeterra é um jogo eletrônico de cartas colecionáveis gratuito desenvolvido e publicado pela Riot Games. Foi lançado em abril de 2020.",
+        "Plataformas": ["PC", "iOS", "Android"],
+        "Genero": ["Jogo de Cartas", "Estratégia"],
+        "Preco": 0,
+        "img": "imagem_legends_of_runeterra.jpg",
+        "Desenvolvedora": "Riot Games"
+    },    
+    {
+        "Nome": "Diablo III",
+        "Descricao": "Diablo III é um jogo eletrônico de RPG de ação desenvolvido e publicado pela Blizzard Entertainment. Foi lançado para Microsoft Windows e macOS em maio de 2012, para PlayStation 3 e Xbox 360 em setembro de 2013 e para PlayStation 4 e Xbox One em agosto de 2014.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One", "PlayStation 3", "Xbox 360"],
+        "Genero": ["RPG", "Ação"],
+        "Preco": 199.90,
+        "img": "imagem_diablo_3.jpg",
+        "Desenvolvedora": "Blizzard Entertainment"
+    },
+    {
+        "Nome": "World of Warcraft",
+        "Descricao": "World of Warcraft (WoW) é um jogo eletrônico do gênero MMORPG desenvolvido e publicado pela Blizzard Entertainment. É o quarto jogo lançado ambientado no universo de Warcraft.",
+        "Plataformas": ["PC"],
+        "Genero": ["MMORPG"],
+        "Preco": 69.90,
+        "img": "imagem_world_of_warcraft.jpg",
+        "Desenvolvedora": "Blizzard Entertainment"
+    },
+    {
+        "Nome": "World of Tanks",
+        "Descricao": "World of Tanks é um jogo eletrônico de ação MMO gratuito desenvolvido pela empresa bielorrussa Wargaming. O jogo apresenta combates de tanques da Segunda Guerra Mundial.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
+        "Genero": ["Ação", "MMO"],
+        "Preco": 0,
+        "img": "imagem_world_of_tanks.jpg",
+        "Desenvolvedora": "Wargaming"
+    },
+    {
+        "Nome": "War Thunder",
+        "Descricao": "War Thunder é um jogo eletrônico MMO gratuito de simulação de combate aéreo, naval e terrestre desenvolvido e publicado pela Gaijin Entertainment. O jogo é ambientado durante a Segunda Guerra Mundial e períodos posteriores.",
+        "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+        "Genero": ["Simulação", "Combate"],
+        "Preco": 0,
+        "img": "imagem_war_thunder.jpg",
+        "Desenvolvedora": "Gaijin Entertainment"
+    },
+    {
+        "Nome": "Final Fantasy XIV",
+        "Descricao": "Final Fantasy XIV é um jogo eletrônico MMORPG desenvolvido e publicado pela Square Enix. É o décimo quarto título principal da série Final Fantasy e foi lançado em 2010.",
+        "Plataformas": ["PC", "PlayStation 4"],
+        "Genero": ["MMORPG"],
+        "Preco": 99.90,
+        "img": "imagem_final_fantasy_xiv.jpg",
+        "Desenvolvedora": "Square Enix"
+    },
+    {
+        "Nome": "Monster Hunter: World",
+        "Descricao": "Monster Hunter: World é um jogo eletrônico de RPG de ação desenvolvido e publicado pela Capcom. Foi lançado para PlayStation 4 e Xbox One em janeiro de 2018, e para Microsoft Windows em agosto de 2018.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
+        "Genero": ["RPG", "Ação"],
+        "Preco": 179.90,
+        "img": "imagem_monster_hunter_world.jpg",
+        "Desenvolvedora": "Capcom"
+    },
+    {
+        "Nome": "Sea of Thieves",
+        "Descricao": "Sea of Thieves é um jogo eletrônico de ação-aventura MMO desenvolvido pela Rare e publicado pela Xbox Game Studios. Foi lançado em março de 2018.",
+        "Plataformas": ["PC", "Xbox One"],
+        "Genero": ["Ação", "Aventura", "MMO"],
+        "Preco": 199.99,
+        "img": "imagem_sea_of_thieves.jpg",
+        "Desenvolvedora": "Rare"
+    },
+    {
+        "Nome": "The Elder Scrolls Online",
+        "Descricao": "The Elder Scrolls Online é um jogo eletrônico MMORPG desenvolvido pela ZeniMax Online Studios e publicado pela Bethesda Softworks. É parte da série The Elder Scrolls.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
+        "Genero": ["MMORPG"],
+        "Preco": 89.90,
+        "img": "imagem_elder_scrolls_online.jpg",
+        "Desenvolvedora": "ZeniMax Online Studios"
+    },
+    {
+        "Nome": "Star Wars Jedi: Fallen Order",
+        "Descricao": "Star Wars Jedi: Fallen Order é um jogo eletrônico de ação e aventura baseado na franquia Star Wars. Foi desenvolvido pela Respawn Entertainment e publicado pela Electronic Arts.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
+        "Genero": ["Ação", "Aventura"],
+        "Preco": 199.90,
+        "img": "imagem_star_wars_jedi_fallen_order.jpg",
+        "Desenvolvedora": "Respawn Entertainment"
+    },
+    {
+        "Nome": "Assassin's Creed Valhalla",
+        "Descricao": "Assassin's Creed Valhalla é um jogo eletrônico de ação-aventura desenvolvido e publicado pela Ubisoft. É o décimo segundo título principal da série Assassin's Creed.",
+        "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+        "Genero": ["Ação", "Aventura", "Mundo Aberto"],
+        "Preco": 199.99,
+        "img": "imagem_assassins_creed_valhalla.jpg",
+        "Desenvolvedora": "Ubisoft"
+    },
+    {
+        "Nome": "Hitman 3",
+        "Descricao": "Hitman 3 é um jogo eletrônico de stealth desenvolvido e publicado pela IO Interactive. É o oitavo título principal da série Hitman.",
+        "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+        "Genero": ["Stealth"],
+        "Preco": 199.90,
+        "img": "imagem_hitman_3.jpg",
+        "Desenvolvedora": "IO Interactive"
+    },  
+    {
+        "Nome": "Resident Evil Village",
+        "Descricao": "Resident Evil Village é um jogo eletrônico de survival horror desenvolvido e publicado pela Capcom. É o oitavo título principal da série Resident Evil e foi lançado em maio de 2021.",
+        "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+        "Genero": ["Survival Horror"],
+        "Preco": 199.90,
+        "img": "imagem_resident_evil_village.jpg",
+        "Desenvolvedora": "Capcom"
+    },
+    {
+        "Nome": "Death Stranding",
+        "Descricao": "Death Stranding é um jogo eletrônico de ação desenvolvido pela Kojima Productions e publicado pela Sony Interactive Entertainment para PlayStation 4 e pela 505 Games para Microsoft Windows. Foi lançado em novembro de 2019 para PlayStation 4 e em julho de 2020 para PC.",
+        "Plataformas": ["PlayStation 4", "PC"],
+        "Genero": ["Ação", "Aventura"],
+        "Preco": 179.99,
+        "img": "imagem_death_stranding.jpg",
+        "Desenvolvedora": "Kojima Productions"
+    },
+    {
+        "Nome": "Ghost of Tsushima",
+        "Descricao": "Ghost of Tsushima é um jogo eletrônico de ação-aventura desenvolvido pela Sucker Punch Productions e publicado pela Sony Interactive Entertainment. Foi lançado em julho de 2020 para PlayStation 4.",
+        "Plataformas": ["PlayStation 4"],
+        "Genero": ["Ação", "Aventura"],
+        "Preco": 199.99,
+        "img": "imagem_ghost_of_tsushima.jpg",
+        "Desenvolvedora": "Sucker Punch Productions"
+    },
+    {
+        "Nome": "Demon's Souls",
+        "Descricao": "Demon's Souls é um jogo eletrônico de RPG de ação desenvolvido pela Bluepoint Games e Japan Studio, publicado pela Sony Interactive Entertainment. É um remake do jogo original lançado em 2009 para PlayStation 3.",
+        "Plataformas": ["PlayStation 5"],
+        "Genero": ["RPG", "Ação"],
+        "Preco": 299.90,
+        "img": "imagem_demons_souls.jpg",
+        "Desenvolvedora": "Bluepoint Games, Japan Studio"
+    },
+    {
+        "Nome": "Ratchet & Clank: Rift Apart",
+        "Descricao": "Ratchet & Clank: Rift Apart é um jogo eletrônico de plataforma desenvolvido pela Insomniac Games e publicado pela Sony Interactive Entertainment. Foi lançado em junho de 2021 para PlayStation 5.",
+        "Plataformas": ["PlayStation 5"],
+        "Genero": ["Plataforma", "Ação"],
+        "Preco": 299.90,
+        "img": "imagem_ratchet_and_clank_rift_apart.jpg",
+        "Desenvolvedora": "Insomniac Games"
+    },
+    {
+        "Nome": "Returnal",
+        "Descricao": "Returnal é um jogo eletrônico de tiro em terceira pessoa roguelike desenvolvido pela Housemarque e publicado pela Sony Interactive Entertainment. Foi lançado em abril de 2021 para PlayStation 5.",
+        "Plataformas": ["PlayStation 5"],
+        "Genero": ["Tiro em Terceira Pessoa", "Roguelike"],
+        "Preco": 299.90,
+        "img": "imagem_returnal.jpg",
+        "Desenvolvedora": "Housemarque"
+    },
+    {
+        "Nome": "Marvel's Spider-Man: Miles Morales",
+        "Descricao": "Marvel's Spider-Man: Miles Morales é um jogo eletrônico de ação-aventura desenvolvido pela Insomniac Games e publicado pela Sony Interactive Entertainment. É uma expansão independente de Marvel's Spider-Man (2018), lançado para PlayStation 5 e PlayStation 4 em novembro de 2020.",
+        "Plataformas": ["PlayStation 4", "PlayStation 5"],
+        "Genero": ["Ação", "Aventura"],
+        "Preco": 279.90,
+        "img": "imagem_spider_man_miles_morales.jpg",
+        "Desenvolvedora": "Insomniac Games"
+    },
+    {
+        "Nome": "Horizon Forbidden West",
+        "Descricao": "Horizon Forbidden West é um jogo eletrônico de RPG de ação desenvolvido pela Guerrilla Games e publicado pela Sony Interactive Entertainment. É uma sequência de Horizon Zero Dawn e está programado para ser lançado em fevereiro de 2022 para PlayStation 4 e PlayStation 5.",
+        "Plataformas": ["PlayStation 4", "PlayStation 5"],
+        "Genero": ["RPG", "Ação"],
+        "Preco": 299.90,
+        "img": "imagem_horizon_forbidden_west.jpg",
+        "Desenvolvedora": "Guerrilla Games"
+    },
+    {
+        "Nome": "Sackboy: A Big Adventure",
+        "Descricao": "Sackboy: A Big Adventure é um jogo eletrônico de plataforma desenvolvido pela Sumo Digital e publicado pela Sony Interactive Entertainment. Foi lançado em novembro de 2020 para PlayStation 4 e PlayStation 5.",
+        "Plataformas": ["PlayStation 4", "PlayStation 5"],
+        "Genero": ["Plataforma", "Aventura"],
+        "Preco": 199.90,
+        "img": "imagem_sackboy_a_big_adventure.jpg",
+        "Desenvolvedora": "Sumo Digital"
+    },
+    {
+        "Nome": "Nioh 2",
+        "Descricao": "Nioh 2 é um jogo eletrônico de RPG de ação desenvolvido pela Team Ninja e publicado pela Koei Tecmo para PlayStation 4 e Microsoft Windows. Foi lançado em março de 2020.",
+        "Plataformas": ["PlayStation 4", "PC"],
+        "Genero": ["RPG", "Ação"],
+        "Preco": 159.90,
+        "img": "imagem_nioh_2.jpg",
+        "Desenvolvedora": "Team Ninja"
+    },
+    {
+        "Nome": "Call of Duty: Black Ops Cold War",
+        "Descricao": "Call of Duty: Black Ops Cold War é um jogo eletrônico de tiro em primeira pessoa desenvolvido pela Treyarch e Raven Software e publicado pela Activision. É o sexto título da série Black Ops e foi lançado em novembro de 2020.",
+        "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
+        "Genero": ["Tiro em Primeira Pessoa"],
+        "Preco": 299.90,
+        "img": "imagem_cod_black_ops_cold_war.jpg",
+        "Desenvolvedora": "Treyarch, Raven Software"
+    },
+    {
+        "Nome": "Assassin's Creed Odyssey",
+        "Descricao": "Assassin's Creed Odyssey é um jogo eletrônico de ação e aventura desenvolvido pela Ubisoft Quebec e publicado pela Ubisoft. Foi lançado em outubro de 2018 como o décimo primeiro título principal da série Assassin's Creed.",
+        "Plataformas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
+        "Genero": ["Ação", "Aventura", "Mundo Aberto"],
+        "Preco": 179.90,
+        "img": "imagem_assassins_creed_odyssey.jpg",
+        "Desenvolvedora": "Ubisoft Quebec"
+    },
+    {
+        "Nome": "Monster Hunter Rise",
+        "Descricao": "Monster Hunter Rise é um jogo eletrônico de RPG de ação desenvolvido e publicado pela Capcom para o Nintendo Switch. Foi lançado em março de 2021.",
+        "Plataformas": ["Nintendo Switch"],
+        "Genero": ["RPG", "Ação"],
+        "Preco": 299.90,
+        "img": "imagem_monster_hunter_rise.jpg",
+        "Desenvolvedora": "Capcom"
     }
-]
+        
+    ]
