@@ -1,5 +1,6 @@
 [
     {
+        "ID": 0,
         "Nome": "",
         "Descricao": "",
         "Plataformas": "",
@@ -129,12 +130,14 @@
         "Desenvolvedora": "miHoYo"
     },
     {
-        "Nome": "FIFA series",
-        "Descricao": "FIFA é uma série de jogos eletrônicos de futebol desenvolvidos e publicados pela Electronic Arts sob a marca EA Sports. A série tem sido lançada anualmente desde 1993.",
+        "Nome": "FIFA 24",
+        "Descricao": "O FIFA 24 é o mais recente jogo da série de futebol da EA Sports, oferecendo gráficos avançados e jogabilidade refinada. Os jogadores podem montar equipes, competir online e explorar modos de carreira.",
         "Plataformas": [
             "PC",
-            "PlayStation",
-            "Xbox",
+            "PlayStation 4 ",
+            "PlayStation 5",
+            "Xbox One",
+            "Xbox Series X/S",
             "Nintendo Switch"
         ],
         "Genero": [
@@ -147,11 +150,13 @@
     },
     {
         "Nome": "NBA 2K series",
-        "Descricao": "NBA 2K é uma série de jogos eletrônicos de basquete desenvolvidos e publicados pela 2K Sports. Os jogos simulam a experiência da National Basketball Association (NBA).",
+        "Descricao": "NBA 2K24 é um videogame de basquete de 2023 desenvolvido pela Visual Concepts Austin e publicado pela 2K, com base na National Basketball Association. É a 25ª edição da franquia NBA 2K e é o sucessor do NBA 2K23.",
         "Plataformas": [
             "PC",
-            "PlayStation",
-            "Xbox",
+            "PlayStation 5",
+            "PlayStation 4",
+            "Xbox Series X/S",
+            "Xbox One",
             "Nintendo Switch"
         ],
         "Genero": [
