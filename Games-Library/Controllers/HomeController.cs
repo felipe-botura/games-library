@@ -1,6 +1,7 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Games_Library.Models;
+using System.Text.Json;
 
 namespace Games_Library.Controllers;
 
@@ -15,7 +16,13 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        List<Game> games = [];
+        using (StreamReader leitor = new("Data\\games.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            games = JsonSerializer.Deserialize<List<Game>>(dados);
+        }
+        return View(games);
     }
 
     public IActionResult Privacy()
