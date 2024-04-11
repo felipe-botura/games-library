@@ -12,7 +12,7 @@ namespace Games_Library.Models
 
         public List<string> Genero { get; set; } = [];
 
-        public int Preco { get; set; }
+        public decimal Preco { get; set; }
 
         public string Imagem { get; set; }
 

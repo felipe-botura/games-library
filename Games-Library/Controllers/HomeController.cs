@@ -39,6 +39,26 @@ public class HomeController : Controller
         return View(games);
     }
 
+    public IActionResult Details(int id)
+    {
+        List<Game> games = [];
+        using (StreamReader leitor = new("Data\\games.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            games = JsonSerializer.Deserialize<List<Game>>(dados);
+        }
+        List<Genero> generos = [];
+        using (StreamReader leitor = new("Data\\generos.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            generos = JsonSerializer.Deserialize<List<Genero>>(dados);
+        }
+        ViewData["Generos"]
+
+
+        return View();
+    }
+
     public IActionResult Privacy()
     {
         return View();

@@ -60,19 +60,6 @@
         "Desenvolvedora": "Riot Games"
     },
     {
-        "Nome": "Dota 2",
-        "Descricao": "Dota 2 é um jogo eletrônico do gênero multiplayer online battle arena (MOBA) desenvolvido e publicado pela Valve Corporation. É a continuação do mod Defense of the Ancients para o jogo Warcraft III: Reign of Chaos e sua expansão, The Frozen Throne.",
-        "Plataformas": [
-            "PC"
-        ],
-        "Genero": [
-            "MOBA"
-        ],
-        "Preco": 0,
-        "img": "imagem_dota_2.jpg",
-        "Desenvolvedora": "Valve Corporation"
-    },
-    {
         "ID": 4,
         "Nome": "Counter-Strike: Global Offensive",
         "Descricao": "Counter-Strike: Global Offensive é um jogo eletrônico de tiro em primeira pessoa online desenvolvido pela Valve Corporation e Hidden Path Entertainment. É o quarto jogo da série Counter-Strike.",
@@ -87,22 +74,6 @@
         "Preco": 0,
         "img": "imagem_csgo.jpg",
         "Desenvolvedora": "Valve Corporation, Hidden Path Entertainment"
-    },
-    {
-        "Nome": "Among Us",
-        "Descricao": "Among Us é um jogo eletrônico multijogador online de festa desenvolvido e publicado pela Innersloth. O jogo foi lançado em 2018, mas ganhou grande popularidade em 2020.",
-        "Plataformas": [
-            "PC",
-            "iOS",
-            "Android"
-        ],
-        "Genero": [
-            "Social Deduction",
-            "Festa"
-        ],
-        "Preco": 0,
-        "img": "imagem_among_us.jpg",
-        "Desenvolvedora": "Innersloth"
     },
     {
         "ID": 5,
@@ -233,15 +204,6 @@
         "Preco": 299.99,
         "img": "imagem_animal_crossing.jpg",
         "Desenvolvedora": "Nintendo"
-    },
-    {
-        "Nome": "Pokémon Sword and Shield",
-        "Descricao": "Pokémon Sword and Shield são jogos eletrônicos de RPG desenvolvidos pela Game Freak e publicados pela Nintendo e pela The Pokémon Company para o Nintendo Switch. São os primeiros jogos principais da série Pokémon a serem lançados para um console de mesa.",
-        "Plataformas": ["Nintendo Switch"],
-        "Genero": ["RPG", "Aventura"],
-        "Preco": 299.99,
-        "img": "imagem_pokemon_sword_shield.jpg",
-        "Desenvolvedora": "Game Freak"
     },
     {
         "ID": 12,
@@ -603,6 +565,46 @@
         "Preco": 299.90,
         "img": "imagem_monster_hunter_rise.jpg",
         "Desenvolvedora": "Capcom"
+    },
+    {  
+        "ID": 48,
+        "Nome": "Among Us",
+        "Descricao": "Among Us é um jogo eletrônico multijogador online de festa desenvolvido e publicado pela Innersloth. O jogo foi lançado em 2018, mas ganhou grande popularidade em 2020.",
+        "Plataformas": [
+            "PC",
+            "iOS",
+            "Android"
+        ],
+        "Genero": [
+            "Social Deduction",
+            "Festa"
+        ],
+        "Preco": 0,
+        "img": "imagem_among_us.jpg",
+        "Desenvolvedora": "Innersloth"
+    },
+    {
+        "ID": 49,
+        "Nome": "Dota 2",
+        "Descricao": "Dota 2 é um jogo eletrônico do gênero multiplayer online battle arena (MOBA) desenvolvido e publicado pela Valve Corporation. É a continuação do mod Defense of the Ancients para o jogo Warcraft III: Reign of Chaos e sua expansão, The Frozen Throne.",
+        "Plataformas": [
+            "PC"
+        ],
+        "Genero": [
+            "MOBA"
+        ],
+        "Preco": 0,
+        "img": "imagem_dota_2.jpg",
+        "Desenvolvedora": "Valve Corporation"
+    },
+    {
+        "ID": 50,
+        "Nome": "Pokémon Sword and Shield",
+        "Descricao": "Pokémon Sword and Shield são jogos eletrônicos de RPG desenvolvidos pela Game Freak e publicados pela Nintendo e pela The Pokémon Company para o Nintendo Switch. São os primeiros jogos principais da série Pokémon a serem lançados para um console de mesa.",
+        "Plataformas": ["Nintendo Switch"],
+        "Genero": ["RPG", "Aventura"],
+        "Preco": 299.99,
+        "img": "imagem_pokemon_sword_shield.jpg",
+        "Desenvolvedora": "Game Freak"
     }
-        
     ]
