@@ -16,47 +16,50 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        List<Game> games = [];
-        using (StreamReader leitor = new("Data\\games.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            games = JsonSerializer.Deserialize<List<Game>>(dados);
-        }
-        List<Genero> generos = [];
-        using (StreamReader leitor = new("Data\\genero.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            generos = JsonSerializer.Deserialize<List<Genero>>(dados);
-        }
+        List<Game> games = GetGames();
+        List<Genero> generos = GetGeneros();
         ViewData["Gêneros"] = generos;
-        List<Plataformas> plataformas = [];
-        using (StreamReader leitor = new("Data\\plataformas.json"))
-        {
-            string dados = leitor.ReadToEnd();
-            plataformas = JsonSerializer.Deserialize<List<Plataformas>>(dados);
-        }
-        ViewData["Plataformas"] = plataformas;
         return View(games);
     }
 
     public IActionResult Details(int id)
     {
-        List<Game> games = [];
+        List<Game> games = GetGames();
+        List<Genero> generos = GetGeneros();
+        DetailsVM details = new() {
+            Generos = generos,
+            Atual = games.FirstOrDefault(p => p.ID == id),
+            Anterior = games.OrderByDescending(p => p.ID).FirstOrDefault(p => p.ID < id),
+            Proximo = games.OrderBy(p => p.ID).FirstOrDefault(p => p.ID > id),
+        };
+        return View(details);
+    }
+
+    private List<Game> GetGames()
+    {
         using (StreamReader leitor = new("Data\\games.json"))
         {
             string dados = leitor.ReadToEnd();
-            games = JsonSerializer.Deserialize<List<Game>>(dados);
+            return JsonSerializer.Deserialize<List<Game>>(dados);
         }
-        List<Genero> generos = [];
-        using (StreamReader leitor = new("Data\\generos.json"))
+    }
+
+     private List<Genero> GetGeneros()
+    {
+        using (StreamReader leitor = new("Data\\genero.json"))
         {
             string dados = leitor.ReadToEnd();
-            generos = JsonSerializer.Deserialize<List<Genero>>(dados);
+            return JsonSerializer.Deserialize<List<Genero>>(dados);
         }
-        ViewData["Generos"]
+    }
 
-
-        return View();
+    private List<Plataformas> GetPlataformas()
+    {
+        using (StreamReader leitor = new("Data\\plataformas.json"))
+        {
+            string dados = leitor.ReadToEnd();
+            return JsonSerializer.Deserialize<List<Plataformas>>(dados);
+        }
     }
 
     public IActionResult Privacy()

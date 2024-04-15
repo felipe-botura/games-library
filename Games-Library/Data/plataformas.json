@@ -1,42 +1,42 @@
 [
     {
         "Nome": "PC",
-        "Cor": ""
+        "Cor": "#7389AE"
     },
     {
         "Nome": "PlayStation 3",
-        "Cor": ""
+        "Cor": "#003087"
     },
     {
         "Nome": "PlayStation 4",
-        "Cor": ""
+        "Cor": "#003087"
     },
     {
         "Nome": "PlayStation 5",
-        "Cor": ""
+        "Cor": "#003087"
     },
     {
         "Nome": "Xbox One",
-        "Cor": ""
+        "Cor": "#107C10"
     },
     {
         "Nome": "Xbox Series X/S",
-        "Cor": ""
+        "Cor": "#107C10"
     },
     {
         "Nome": "Xbox 360",
-        "Cor": ""
+        "Cor": "#107C10"
     },
     {
         "Nome": "Nintendo Switch",
-        "Cor": ""
+        "Cor": "#E60012"
     },
     {
         "Nome": "iOS",
-        "Cor": ""
+        "Cor": "#000000"
     },
     {
         "Nome": "Android",
-        "Cor": ""
+        "Cor": "#A4C639"
     }
 ]

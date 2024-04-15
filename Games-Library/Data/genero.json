@@ -1,122 +1,122 @@
 [
     {
         "Nome": "Ação",
-        "Cor": ""
+        "Cor": "#FF5733"
     },
     {
         "Nome": "Aventura",
-        "Cor": ""
+        "Cor": "#4C9F38"
     },
     {
         "Nome": "Autochess",
-        "Cor": ""
+        "Cor": "#8C7594"
     },
     {
         "Nome": "Battle-Royale",
-        "Cor": ""
+        "Cor": "#FF4500"
     },
     {
         "Nome": "Construção",
-        "Cor": ""
+        "Cor": "#FFD700"
     },
     {
         "Nome": "Combate",
-        "Cor": ""
+        "Cor": "#FF0000"
     },
     {
         "Nome": "Crossover",
-        "Cor": ""
+        "Cor": "#7F00FF"
     },
     {
         "Nome": "Estratégia",
-        "Cor": ""
+        "Cor": "#008080"
     },
     {
         "Nome": "Esportes",
-        "Cor": ""
+        "Cor": "#FFD700"
     },
     {
         "Nome": "Festa",
-        "Cor": ""
+        "Cor": "#FF69B4"
     },
     {
         "Nome": "Jogo de Cartas",
-        "Cor": ""
+        "Cor": "#008080"
     },
     {
         "Nome": "Luta",
-        "Cor": ""
+        "Cor": "#FF2400"
     },
     {
         "Nome": "MMO",
-        "Cor": ""
+        "Cor": "#663399"
     },
     {
         "Nome": "MMORPG",
-        "Cor": ""
+        "Cor": "#663399"
     },
     {
         "Nome": "Mundo Aberto",
-        "Cor": ""
+        "Cor": "#00FF00"
     },
     {
         "Nome": "MOBA",
-        "Cor": ""
+        "Cor": "#800080"
     },
     {
         "Nome": "Plataforma",
-        "Cor": ""
+        "Cor": "#FFD700"
     },
     {
         "Nome": "RPG",
-        "Cor": ""
+        "Cor": "#8A2BE2"
     },
     {
         "Nome": "Roguelike",
-        "Cor": ""
+        "Cor": "#800000"
     },
     {
         "Nome": "Sandbox",
-        "Cor": ""
+        "Cor": "#FFD700"
     },
     {
         "Nome": "Simulação",
-        "Cor": ""
+        "Cor": "#008000"
     },
     {
         "Nome": "Social Deduction",
-        "Cor": ""
+        "Cor": "#800000"
     },
     {
         "Nome": "Sobrevivência",
-        "Cor": ""
+        "Cor": "#556B2F"
     },
     {
         "Nome": "Stealth",
-        "Cor": ""
+        "Cor": "#2F4F4F"
     },
     {
         "Nome": "Survival Horror",
-        "Cor": ""
+        "Cor": "#8B0000"
     },
     {
         "Nome": "Tático",
-        "Cor": ""
+        "Cor": "#000080"
     },
     {
         "Nome": "Tiro em Primeira Pessoa",
-        "Cor": ""
+        "Cor": "#FFA500"
     },
     {
         "Nome": "Tiro em Terceira Pessoa",
-        "Cor": ""
+        "Cor": "#FFA500"
     },
     {
         "Nome": "Vida Virtual",
-        "Cor": ""
+        "Cor": "#FFFFFF"
     },
     {
         "Nome": "Veicular",
-        "Cor": ""
+        "Cor": "#0000FF"
     }
 ]
