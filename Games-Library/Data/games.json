@@ -19,7 +19,7 @@
             "Construção"
         ],
         "Preco": 0,
-        "img": "imagem_fortnite.jpg",
+        "Imagem":"\\img\\games\\1.jpg",
         "Desenvolvedora": "Epic Games"
     },
     {
@@ -42,7 +42,7 @@
             "Aventura"
         ],
         "Preco": 179.99,
-        "img": "imagem_minecraft.jpg",
+        "Imagem":"\\img\\games\\2.jpg",
         "Desenvolvedora": "Mojang Studios"
     },
     {
@@ -56,7 +56,7 @@
             "MOBA"
         ],
         "Preco": 0,
-        "img": "imagem_league_of_legends.jpg",
+        "Imagem":"\\img\\games\\3.jpg",
         "Desenvolvedora": "Riot Games"
     },
     {
@@ -72,7 +72,7 @@
             "Tiro em Primeira Pessoa"
         ],
         "Preco": 0,
-        "img": "imagem_csgo.jpg",
+        "Imagem":"\\img\\games\\4.jpg",
         "Desenvolvedora": "Valve Corporation, Hidden Path Entertainment"
     },
     {
@@ -92,7 +92,7 @@
             "RPG"
         ],
         "Preco": 0,
-        "img": "imagem_genshin_impact.jpg",
+        "Imagem":"\\img\\games\\5.jpg",
         "Desenvolvedora": "miHoYo"
     },
     {
@@ -112,7 +112,7 @@
             "Simulação"
         ],
         "Preco": 0,
-        "img": "imagem_fifa.jpg",
+        "Imagem":"\\img\\games\\6.jpg",
         "Desenvolvedora": "EA Sports"
     },
     {
@@ -132,7 +132,7 @@
             "Simulação"
         ],
         "Preco": 0,
-        "img": "imagem_nba_2k.jpg",
+        "Imagem":"\\img\\games\\7.jpg",
         "Desenvolvedora": "2K Sports"
     },
     {
@@ -152,7 +152,7 @@
             "Mundo Aberto"
         ],
         "Preco": 69.99,
-        "img": "imagem_gta_v.jpg",
+        "Imagem":"\\img\\games\\8.jpg",
         "Desenvolvedora": "Rockstar North"
     },
     {
@@ -171,7 +171,7 @@
             "Mundo Aberto"
         ],
         "Preco": 199.99,
-        "img": "imagem_red_dead_redemption_2.jpg",
+        "Imagem":"\\img\\games\\9.jpg",
         "Desenvolvedora": "Rockstar Games"
     },
     {
@@ -192,7 +192,7 @@
             "Mundo Aberto"
         ],
         "Preco": 200.00,
-        "img": "imagem_cyberpunk_2077.jpg",
+        "Imagem":"\\img\\games\\10.jpg",
         "Desenvolvedora": "CD Projekt"
     },
     {
@@ -202,7 +202,7 @@
         "Plataformas": ["Nintendo Switch"],
         "Genero": ["Simulação", "Vida Virtual"],
         "Preco": 299.99,
-        "img": "imagem_animal_crossing.jpg",
+        "Imagem":"\\img\\games\\11.jpg",
         "Desenvolvedora": "Nintendo"
     },
     {
@@ -212,7 +212,7 @@
         "Plataformas": ["Nintendo Switch"],
         "Genero": ["Luta", "Crossover"],
         "Preco": 299.99,
-        "img": "imagem_super_smash_bros_ultimate.jpg",
+        "Imagem":"\\img\\games\\12.jpg",
         "Desenvolvedora": "Bandai Namco Studios, Sora Ltd."
     },
     {
@@ -222,7 +222,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
         "Genero": ["Tiro em Primeira Pessoa", "Ação"],
         "Preco": 79.90,
-        "img": "imagem_overwatch.jpg",
+        "Imagem":"\\img\\games\\13.jpg",
         "Desenvolvedora": "Blizzard Entertainment"
     },
     
@@ -233,7 +233,7 @@
         "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
         "Genero": ["Tiro em Primeira Pessoa", "Tático"],
         "Preco": 59.99,
-        "img": "imagem_rainbow_six_siege.jpg",
+        "Imagem":"\\img\\games\\14.jpg",
         "Desenvolvedora": "Ubisoft Montreal"
     },
     {
@@ -243,7 +243,7 @@
         "Plataformas": ["PC"],
         "Genero": ["Sobrevivência", "Ação"],
         "Preco": 36.99,
-        "img": "imagem_rust.jpg",
+        "Imagem":"\\img\\games\\15.jpg",
         "Desenvolvedora": "Facepunch Studios"
     },
     {
@@ -253,7 +253,7 @@
         "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S", "Nintendo Switch"],
         "Genero": ["Esportes", "Veicular"],
         "Preco": 39.99,
-        "img": "imagem_rocket_league.jpg",
+        "Imagem":"\\img\\games\\16.jpg",
         "Desenvolvedora": "Psyonix"
     },
     {
@@ -263,7 +263,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
         "Genero": ["Tiro em Terceira Pessoa", "RPG"],
         "Preco": 179.99,
-        "img": "imagem_the_division_2.jpg",
+        "Imagem":"\\img\\games\\imagem_the_division_2.jpg",
         "Desenvolvedora": "Massive Entertainment"
     },
     {
@@ -273,7 +273,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One", "Android", "iOS"],
         "Genero": ["Battle Royale"],
         "Preco": 55.99,
-        "img": "imagem_pubg.jpg",
+        "Imagem":"\\img\\games\\imagem_pubg.jpg",
         "Desenvolvedora": "PUBG Corporation"
     },
     {
@@ -283,7 +283,7 @@
         "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
         "Genero": ["Tiro em Primeira Pessoa", "RPG"],
         "Preco": 79.90,
-        "img": "imagem_destiny_2.jpg",
+        "Imagem":"\\img\\games\\imagem_destiny_2.jpg",
         "Desenvolvedora": "Bungie"
     },
     {
@@ -293,7 +293,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
         "Genero": ["Tiro em Terceira Pessoa", "RPG"],
         "Preco": 0,
-        "img": "imagem_warframe.jpg",
+        "Imagem":"\\img\\games\\imagem_warframe.jpg",
         "Desenvolvedora": "Digital Extremes"
     },
     {
@@ -303,7 +303,7 @@
         "Plataformas": ["PC", "iOS", "Android"],
         "Genero": ["Jogo de Cartas", "Estratégia"],
         "Preco": 0,
-        "img": "imagem_hearthstone.jpg",
+        "Imagem":"\\img\\games\\imagem_hearthstone.jpg",
         "Desenvolvedora": "Blizzard Entertainment"
     },
     {
@@ -313,7 +313,7 @@
         "Plataformas": ["PC", "iOS", "Android"],
         "Genero": ["Estratégia", "Autochess"],
         "Preco": 0,
-        "img": "imagem_teamfight_tactics.jpg",
+        "Imagem":"\\img\\games\\imagem_teamfight_tactics.jpg",
         "Desenvolvedora": "Riot Games"
     },
     {
@@ -323,7 +323,7 @@
         "Plataformas": ["PC", "iOS", "Android"],
         "Genero": ["Jogo de Cartas", "Estratégia"],
         "Preco": 0,
-        "img": "imagem_legends_of_runeterra.jpg",
+        "Imagem":"\\img\\games\\imagem_legends_of_runeterra.jpg",
         "Desenvolvedora": "Riot Games"
     },    
     {
@@ -333,7 +333,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One", "PlayStation 3", "Xbox 360"],
         "Genero": ["RPG", "Ação"],
         "Preco": 199.90,
-        "img": "imagem_diablo_3.jpg",
+        "Imagem":"\\img\\games\\imagem_diablo_3.jpg",
         "Desenvolvedora": "Blizzard Entertainment"
     },
     {
@@ -343,7 +343,7 @@
         "Plataformas": ["PC"],
         "Genero": ["MMORPG"],
         "Preco": 69.90,
-        "img": "imagem_world_of_warcraft.jpg",
+        "Imagem":"\\img\\games\\imagem_world_of_warcraft.jpg",
         "Desenvolvedora": "Blizzard Entertainment"
     },
     {
@@ -353,7 +353,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
         "Genero": ["Ação", "MMO"],
         "Preco": 0,
-        "img": "imagem_world_of_tanks.jpg",
+        "Imagem":"\\img\\games\\imagem_world_of_tanks.jpg",
         "Desenvolvedora": "Wargaming"
     },
     {
@@ -363,7 +363,7 @@
         "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
         "Genero": ["Simulação", "Combate"],
         "Preco": 0,
-        "img": "imagem_war_thunder.jpg",
+        "Imagem":"\\img\\games\\imagem_war_thunder.jpg",
         "Desenvolvedora": "Gaijin Entertainment"
     },
     {
@@ -373,7 +373,7 @@
         "Plataformas": ["PC", "PlayStation 4"],
         "Genero": ["MMORPG"],
         "Preco": 99.90,
-        "img": "imagem_final_fantasy_xiv.jpg",
+        "Imagem":"\\img\\games\\imagem_final_fantasy_xiv.jpg",
         "Desenvolvedora": "Square Enix"
     },
     {
@@ -383,7 +383,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
         "Genero": ["RPG", "Ação"],
         "Preco": 179.90,
-        "img": "imagem_monster_hunter_world.jpg",
+        "Imagem":"\\img\\games\\imagem_monster_hunter_world.jpg",
         "Desenvolvedora": "Capcom"
     },
     {
@@ -393,7 +393,7 @@
         "Plataformas": ["PC", "Xbox One"],
         "Genero": ["Ação", "Aventura", "MMO"],
         "Preco": 199.99,
-        "img": "imagem_sea_of_thieves.jpg",
+        "Imagem":"\\img\\games\\imagem_sea_of_thieves.jpg",
         "Desenvolvedora": "Rare"
     },
     {
@@ -403,7 +403,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
         "Genero": ["MMORPG"],
         "Preco": 89.90,
-        "img": "imagem_elder_scrolls_online.jpg",
+        "Imagem":"\\img\\games\\imagem_elder_scrolls_online.jpg",
         "Desenvolvedora": "ZeniMax Online Studios"
     },
     {
@@ -413,7 +413,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One"],
         "Genero": ["Ação", "Aventura"],
         "Preco": 199.90,
-        "img": "imagem_star_wars_jedi_fallen_order.jpg",
+        "Imagem":"\\img\\games\\imagem_star_wars_jedi_fallen_order.jpg",
         "Desenvolvedora": "Respawn Entertainment"
     },
     {
@@ -423,7 +423,7 @@
         "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
         "Genero": ["Ação", "Aventura", "Mundo Aberto"],
         "Preco": 199.99,
-        "img": "imagem_assassins_creed_valhalla.jpg",
+        "Imagem":"\\img\\games\\imagem_assassins_creed_valhalla.jpg",
         "Desenvolvedora": "Ubisoft"
     },
     {
@@ -433,7 +433,7 @@
         "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
         "Genero": ["Stealth"],
         "Preco": 199.90,
-        "img": "imagem_hitman_3.jpg",
+        "Imagem":"\\img\\games\\imagem_hitman_3.jpg",
         "Desenvolvedora": "IO Interactive"
     },  
     {
@@ -443,7 +443,7 @@
         "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
         "Genero": ["Survival Horror"],
         "Preco": 199.90,
-        "img": "imagem_resident_evil_village.jpg",
+        "Imagem":"\\img\\games\\imagem_resident_evil_village.jpg",
         "Desenvolvedora": "Capcom"
     },
     {
@@ -453,7 +453,7 @@
         "Plataformas": ["PlayStation 4", "PC"],
         "Genero": ["Ação", "Aventura"],
         "Preco": 179.99,
-        "img": "imagem_death_stranding.jpg",
+        "Imagem":"\\img\\games\\imagem_death_stranding.jpg",
         "Desenvolvedora": "Kojima Productions"
     },
     {
@@ -463,7 +463,7 @@
         "Plataformas": ["PlayStation 4"],
         "Genero": ["Ação", "Aventura"],
         "Preco": 199.99,
-        "img": "imagem_ghost_of_tsushima.jpg",
+        "Imagem":"\\img\\games\\imagem_ghost_of_tsushima.jpg",
         "Desenvolvedora": "Sucker Punch Productions"
     },
     {
@@ -473,7 +473,7 @@
         "Plataformas": ["PlayStation 5"],
         "Genero": ["RPG", "Ação"],
         "Preco": 299.90,
-        "img": "imagem_demons_souls.jpg",
+        "Imagem":"\\img\\games\\imagem_demons_souls.jpg",
         "Desenvolvedora": "Bluepoint Games, Japan Studio"
     },
     {
@@ -483,7 +483,7 @@
         "Plataformas": ["PlayStation 5"],
         "Genero": ["Plataforma", "Ação"],
         "Preco": 299.90,
-        "img": "imagem_ratchet_and_clank_rift_apart.jpg",
+        "Imagem":"\\img\\games\\imagem_ratchet_and_clank_rift_apart.jpg",
         "Desenvolvedora": "Insomniac Games"
     },
     {
@@ -493,7 +493,7 @@
         "Plataformas": ["PlayStation 5"],
         "Genero": ["Tiro em Terceira Pessoa", "Roguelike"],
         "Preco": 299.90,
-        "img": "imagem_returnal.jpg",
+        "Imagem":"\\img\\games\\imagem_returnal.jpg",
         "Desenvolvedora": "Housemarque"
     },
     {
@@ -503,7 +503,7 @@
         "Plataformas": ["PlayStation 4", "PlayStation 5"],
         "Genero": ["Ação", "Aventura"],
         "Preco": 279.90,
-        "img": "imagem_spider_man_miles_morales.jpg",
+        "Imagem":"\\img\\games\\imagem_spider_man_miles_morales.jpg",
         "Desenvolvedora": "Insomniac Games"
     },
     {
@@ -513,7 +513,7 @@
         "Plataformas": ["PlayStation 4", "PlayStation 5"],
         "Genero": ["RPG", "Ação"],
         "Preco": 299.90,
-        "img": "imagem_horizon_forbidden_west.jpg",
+        "Imagem":"\\img\\games\\imagem_horizon_forbidden_west.jpg",
         "Desenvolvedora": "Guerrilla Games"
     },
     {
@@ -523,7 +523,7 @@
         "Plataformas": ["PlayStation 4", "PlayStation 5"],
         "Genero": ["Plataforma", "Aventura"],
         "Preco": 199.90,
-        "img": "imagem_sackboy_a_big_adventure.jpg",
+        "Imagem":"\\img\\games\\imagem_sackboy_a_big_adventure.jpg",
         "Desenvolvedora": "Sumo Digital"
     },
     {
@@ -533,7 +533,7 @@
         "Plataformas": ["PlayStation 4", "PC"],
         "Genero": ["RPG", "Ação"],
         "Preco": 159.90,
-        "img": "imagem_nioh_2.jpg",
+        "Imagem":"\\img\\games\\imagem_nioh_2.jpg",
         "Desenvolvedora": "Team Ninja"
     },
     {
@@ -543,7 +543,7 @@
         "Plataformas": ["PC", "PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series X/S"],
         "Genero": ["Tiro em Primeira Pessoa"],
         "Preco": 299.90,
-        "img": "imagem_cod_black_ops_cold_war.jpg",
+        "Imagem":"\\img\\games\\imagem_cod_black_ops_cold_war.jpg",
         "Desenvolvedora": "Treyarch, Raven Software"
     },
     {
@@ -553,7 +553,7 @@
         "Plataformas": ["PC", "PlayStation 4", "Xbox One", "Nintendo Switch"],
         "Genero": ["Ação", "Aventura", "Mundo Aberto"],
         "Preco": 179.90,
-        "img": "imagem_assassins_creed_odyssey.jpg",
+        "Imagem":"\\img\\games\\imagem_assassins_creed_odyssey.jpg",
         "Desenvolvedora": "Ubisoft Quebec"
     },
     {
@@ -563,7 +563,7 @@
         "Plataformas": ["Nintendo Switch"],
         "Genero": ["RPG", "Ação"],
         "Preco": 299.90,
-        "img": "imagem_monster_hunter_rise.jpg",
+        "Imagem":"\\img\\games\\imagem_monster_hunter_rise.jpg",
         "Desenvolvedora": "Capcom"
     },
     {  
@@ -580,7 +580,7 @@
             "Festa"
         ],
         "Preco": 0,
-        "img": "imagem_among_us.jpg",
+        "Imagem":"\\img\\games\\imagem_among_us.jpg",
         "Desenvolvedora": "Innersloth"
     },
     {
@@ -594,7 +594,7 @@
             "MOBA"
         ],
         "Preco": 0,
-        "img": "imagem_dota_2.jpg",
+        "Imagem":"\\img\\games\\imagem_dota_2.jpg",
         "Desenvolvedora": "Valve Corporation"
     },
     {
@@ -604,7 +604,7 @@
         "Plataformas": ["Nintendo Switch"],
         "Genero": ["RPG", "Aventura"],
         "Preco": 299.99,
-        "img": "imagem_pokemon_sword_shield.jpg",
+        "Imagem":"\\img\\games\\imagem_pokemon_sword_shield.jpg",
         "Desenvolvedora": "Game Freak"
     }
     ]

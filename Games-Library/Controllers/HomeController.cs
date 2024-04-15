@@ -18,7 +18,9 @@ public class HomeController : Controller
     {
         List<Game> games = GetGames();
         List<Genero> generos = GetGeneros();
+        List<Plataformas> plataformas = GetPlataformas();
         ViewData["Gêneros"] = generos;
+        ViewData["Plataformas"] = plataformas;
         return View(games);
     }
 
@@ -26,8 +28,10 @@ public class HomeController : Controller
     {
         List<Game> games = GetGames();
         List<Genero> generos = GetGeneros();
+        List<Plataformas> plataformas = GetPlataformas();
         DetailsVM details = new() {
             Generos = generos,
+            Plataformas = plataformas,
             Atual = games.FirstOrDefault(p => p.ID == id),
             Anterior = games.OrderByDescending(p => p.ID).FirstOrDefault(p => p.ID < id),
             Proximo = games.OrderBy(p => p.ID).FirstOrDefault(p => p.ID > id),

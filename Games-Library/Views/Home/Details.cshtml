@@ -1,16 +1,16 @@
 @model DetailsVM
 @{
     ViewData["Title"] = "Jogo";
-    string Cor(string nome)
+    string CorG(string nome)
     {
-        return Model.generos
+        return Model.Generos
             .Where(t => t.Nome == nome)
             .Select(t => t.Cor)
             .FirstOrDefault();
     }
-    string Cor(string nome)
+    string CorP(string nome)
     {
-        return Model.plataformas
+        return Model.Plataformas
             .Where(t => t.Nome == nome)
             .Select(t => t.Cor)
             .FirstOrDefault();
@@ -42,7 +42,7 @@
 
     <div class="row mt-3">
         <div class="col-lg-5 p-0">
-            <img class="img-fluid cursor-pointer" src="img/pokemons/002.png" alt="Ivysaur">
+            <img class="img-fluid cursor-pointer" src="@Model.Atual.Imagem" alt="@Model.Atual.Nome">
         </div>
         <div class="col-lg-7 fs-5 mt-4">
             <p class="mb-3"><strong>Descrição:</strong>@Model.Atual.Descricao</p>
@@ -53,14 +53,14 @@
                 @foreach(var genero in Model.Atual.Genero)
                 {
 
-                    <a href="#" class="btn btn-lg text-white" style="background-color:@Cor(genero)">
+                    <a href="#" class="btn btn-lg text-white" style="background-color:@CorG(genero)">
                         @genero
                     </a>
                 }
-                @foreach(var plataforma in Model.Atual.Plataforma)
+                @foreach(var plataforma in Model.Atual.Plataformas)
                 {
 
-                    <a href="#" class="btn btn-lg text-white" style="background-color:@Cor(plataforma)">
+                    <a href="#" class="btn btn-lg text-white" style="background-color:@CorP(plataforma)">
                         @plataforma
                     </a>
                 }

@@ -1,7 +1,7 @@
 [
     {
         "Nome": "Ação",
-        "Cor": "#FF5733"
+        "Cor": "#db5643"
     },
     {
         "Nome": "Aventura",
@@ -17,11 +17,11 @@
     },
     {
         "Nome": "Construção",
-        "Cor": "#FFD700"
+        "Cor": "#466CDB"
     },
     {
         "Nome": "Combate",
-        "Cor": "#FF0000"
+        "Cor": "#E03939"
     },
     {
         "Nome": "Crossover",
@@ -33,7 +33,7 @@
     },
     {
         "Nome": "Esportes",
-        "Cor": "#FFD700"
+        "Cor": "#584FDB"
     },
     {
         "Nome": "Festa",
@@ -57,7 +57,7 @@
     },
     {
         "Nome": "Mundo Aberto",
-        "Cor": "#00FF00"
+        "Cor": "#706482"
     },
     {
         "Nome": "MOBA",
@@ -69,7 +69,7 @@
     },
     {
         "Nome": "RPG",
-        "Cor": "#8A2BE2"
+        "Cor": "#703d6f"
     },
     {
         "Nome": "Roguelike",
@@ -81,7 +81,7 @@
     },
     {
         "Nome": "Simulação",
-        "Cor": "#008000"
+        "Cor": "#6F4FDB"
     },
     {
         "Nome": "Social Deduction",
@@ -113,10 +113,10 @@
     },
     {
         "Nome": "Vida Virtual",
-        "Cor": "#FFFFFF"
+        "Cor": "#808080"
     },
     {
         "Nome": "Veicular",
-        "Cor": "#0000FF"
+        "Cor": "#4F77DB"
     }
 ]

@@ -2,9 +2,19 @@
 @{
     ViewData["Title"] = "Home";
     var generos = (List<Genero>)ViewData["Gêneros"];
-    string Cor(string nome)
+
+    string CorG(string nome)
     {
         return generos
+        .Where(t => t.Nome == nome)
+        .Select(t => t.Cor)
+        .FirstOrDefault();
+    }
+    var plataformas = (List<Plataformas>)ViewData["Plataformas"];
+        
+    string CorP(string nome)
+    {
+        return plataformas
         .Where(t => t.Nome == nome)
         .Select(t => t.Cor)
         .FirstOrDefault();
@@ -16,18 +26,18 @@
         <div class="col mx-auto">
             <h1>Gamesdex</h1>
             <div class="group">
-                <button id="btn-all" class="btn btn-md my-2 text-white bg-dark btn-filter">Ver
+                <button id="btn-all" class="btn btn-md my-2 text-white bg-dark btn-filter" onclick="filter('all')">Ver
                     Todos
                 </button>
                 @foreach (var genero in generos)
                 {
-                    <button id="btn-aço" class="btn btn-sm my-2 text-white btn-filter"
+                    <button id="btn-aço" class="btn btn-sm my-2 text-white btn-filter" onclick="filter('@genero.Nome')"
                         style="background-color:@genero.Cor">@genero.Nome
                     </button>
                 }
                 @foreach (var plataforma in plataformas)
                 {
-                    <button id="btn-aço" class="btn btn-sm my-2 text-white btn-filter"
+                    <button id="btn-aço" class="btn btn-sm my-2 text-white btn-filter" onclick="filter('@plataforma.Nome')"
                         style="background-color:@plataforma.Cor">@plataforma.Nome
                     </button>
                 }
@@ -46,24 +56,25 @@
                 <!-- Card Pokemon - Inicio -->
                 <div class="col" onclick="window.location = '/Home/Details/@Game.ID'">
                     <div class="card shadow-sm cursor-pointer @string.Join(' ',Game.Genero) @string.Join(' ',Game.Plataformas)">
-                        <img src="@Game.Imagem" class="card-img-top" width="100%" height="320" alt="@Game.Nome" />
+                        <img src="@Game.Imagem" class="card-img-top" width="100%" height="340" alt="@Game.Nome"
+                        style="object-fit: contain" />
                         <div class="card-body">
                             <p class="card-text mb-0">@Game.ID</p>
                             <h3 class="card-title">@Game.Nome</h3>
 
-                            <div class="btn-group">
+                            <div class="btn-group d-flex flex-wrap">
                                 @foreach (var genero in Game.Genero)
                                 {
-                                    <a href="#" class="btn my-2 text-white bg-dark" @* retirar bg-dark para aparecer as cores *@
-                                        style="background-color:@Cor(genero)"
+                                    <a href="#" class="btn my-2 text-white" 
+                                        style="background-color:@CorG(genero)"
                                         onclick="filter('@genero')">@genero</a>
                                 }
                             </div>
-                            <div class="btn-group">
+                            <div class="btn-group  d-flex flex-wrap">
                                 @foreach (var plataforma in Game.Plataformas)
                                 {
-                                    <a href="#" class="btn my-2 text-white bg-dark" @* retirar bg-dark para aparecer as cores *@
-                                        style="background-color:@Cor(plataforma)"
+                                    <a href="#" class="btn my-2 text-white" 
+                                        style="background-color:@CorP(plataforma)"
                                         onclick="filter('@plataforma')">@plataforma</a>
                                 }
                             </div>
